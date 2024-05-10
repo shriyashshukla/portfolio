@@ -7,14 +7,26 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
+    <>
+     
+    
     <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
-        >
+    <div className="grid grid-cols-1 sm:grid-cols-12 ">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+    >
+       <div className="relative md:hidden ">
+  <Image
+    src="/images/hero-image.jpeg"
+    alt="hero image"
+    className="rounded-full relative top-0 left-1/2 transform -translate-x-1/2"
+    width={300}
+    height={300}
+  />
+</div>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
@@ -34,17 +46,14 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <h1>Welcome to Shriyash Shukla's World of Web Development</h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            
-
-            Hello and welcome! I'm Shriyash Shukla, a passionate web developer with a knack for turning ideas into digital reality. With a blend of creativity and technical expertise, I craft engaging, user-centric websites that leave a lasting impression.
-
-            In my portfolio, you'll discover a showcase of my diverse projects, ranging from sleek corporate websites to dynamic e-commerce platforms and everything in between. Each project is a testament to my commitment to excellence, innovation, and seamless user experience.
+          <h1>Welcome to Shriyash Shukla&apos;s World of Web Development</h1>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl ">
+            Hello and welcome! I&apos;m Shriyash Shukla, a passionate web developer with a knack for turning ideas into digital reality. With a blend of creativity and technical expertise, I craft engaging, user-centric websites that leave a lasting impression.
+            In my portfolio, you&apos;ll discover a showcase of my diverse projects, ranging from sleek corporate websites to dynamic e-commerce platforms and everything in between. Each project is a testament to my commitment to excellence, innovation, and seamless user experience.
           </p>
-          <div className="justify-center">
-          <button className="hireme-btu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36px" height="36px">
+          <div className="justify-center  flex">
+            <button className="hireme-btu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36px" height="36px">
                 <rect width={36} height={36} x={0} y={0} fill="#fdd835" />
                 <path
                   fill="#e53935"
@@ -82,7 +91,6 @@ const HeroSection = () => {
               <span className="now">Me!</span>
               <span className="play">Hire</span>
             </button>
-
           </div>
         </motion.div>
         <motion.div
@@ -91,7 +99,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative hidden md:flex">
             <Image
               src="/images/hero-image.jpeg"
               alt="hero image"
@@ -103,6 +111,7 @@ const HeroSection = () => {
         </motion.div>
       </div>
     </section>
+    </>
   );
 };
 

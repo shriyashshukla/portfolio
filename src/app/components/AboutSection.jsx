@@ -8,14 +8,27 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  <ul class="list-disc pl-2">
+    <li>Node.js</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Next.js</li>
+  </ul>
+  <ul class="list-disc pl-2">
+    <li>Express</li>
+    <li>MongoDB</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+  <ul class="list-disc pl-2">
+    <li>Bootstrap</li>
+    <li>Material-UI</li>
+    <li>Git</li>
+    <li>GitHub</li>
+  </ul>
+</div>
+
     ),
   },
   {
@@ -36,8 +49,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <a href='https://drive.google.com/file/d/1wFUSn8228Fua44HX_nKgPy9Q02N9LCR4/view?usp=sharing'><li>Google My business Certification</li></a>
+        <a href='https://drive.google.com/file/d/1PeusW4p5fvYVJJLisy63B-09necZ_yzR/view?usp=drive_link'><li>Digipodium Certification in Miner Project </li></a>
+        <a href='https://drive.google.com/file/d/1PeusW4p5fvYVJJLisy63B-09necZ_yzR/view?usp=drive_link'><li>Digipodium Certification in Major Project </li></a>
+        <a href='https://devsnest.in/certificate/awexK6Lf4zw'><li>Devsnest Certification in Data Structures and Algorithms </li></a>
+      
       </ul>
     ),
   },
@@ -90,6 +106,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
+      <button className="cvbutton mx-auto"> Download My Curriculum Vitae</button>
     </section>
   );
 };
