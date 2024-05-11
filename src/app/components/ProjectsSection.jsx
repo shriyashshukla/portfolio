@@ -8,57 +8,49 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Welcome to Shubham's Professional Portfolio, a showcase of accomplishments and expertise beyond IT. This portfolio demonstrates Shubham's versatility and proficiency in  Pharma industries.",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Live"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "E-Doctor Connect",
+    description: "E-Doctor Connect is a comprehensive healthcare platform designed to bridge the gap between patients and healthcare providers through innovative digital solutions. With its user-friendly interface and advanced features, eDoctor Connect enables seamless communication, appointment scheduling, and remote consultations between patients and healthcare professionals.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All"],
+    gitUrl: "https://github.com/shriyashshukla/E-Doc-Connect.git",
+    previewUrl: "",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "AnimeZen",
+    description: "AnimeZen is your ultimate destination for all things anime-inspired fashion. Dive into a world where your favorite anime characters come to life through stylish clothing and accessories. Whether you're a die-hard fan or just starting your journey into the anime universe, AnimeZen offers a diverse range of apparel that captures the essence of your favorite shows and characters.",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Live"],
+    gitUrl: "https://github.com/shriyashshukla/AnimeZen.git",
+    previewUrl: "https://anime-zen.vercel.app/",
   },
   {
     id: 4,
     title: "Food Ordering Application",
-    description: "Project 4 description",
+    description: "Browse through our carefully curated selection of cuisines, from traditional favorites to innovative fusion dishes, all available for delivery or pickup. Whether you're in the mood for hearty comfort food, exotic international fare, or healthy options to nourish your body and soul, Paapi Paet has you covered.",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Live"],
+    gitUrl: "https://github.com/shriyashshukla/food_deliverey.git",
+    previewUrl: "https://food-deliverey.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Trip-book.com",
+    description: "Trip-Book.com is a travel booking platform that offers a wide range of travel services, including flights, hotels, car rentals, and vacation packages. With its user-friendly interface and advanced search features, Trip-Book.com makes it easy to plan your next adventure and book all your travel needs in one place.",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Live"],
+    gitUrl: "https://github.com/shriyashshukla/tripBook.com.git",
+    previewUrl: "https://trip-book-com.vercel.app/",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -80,6 +72,7 @@ const ProjectsSection = () => {
   };
 
   return (
+    <>
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
@@ -92,14 +85,10 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Live"
+          isSelected={tag === "Live"}
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
+        
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
@@ -121,7 +110,10 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
+      
     </section>
+    
+    </>
   );
 };
 
