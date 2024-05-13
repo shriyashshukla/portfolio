@@ -22,22 +22,11 @@ This portfolio showcases the work, projects, and skills of Shriyash Shukla. It s
 - Bootstrap (optional)
 - Other relevant libraries or frameworks
 
-## Getting Started
-
-To view the portfolio locally, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-Alternatively, you can visit the live version of the portfolio hosted at [example.com](https://www.example.com).
 
 ## Contributions
 
 Contributions to improve the portfolio are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
