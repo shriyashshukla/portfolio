@@ -48,9 +48,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For inquiries or further information, please contact Shriyash Shukla at [harishukla797@gmail.com]
 
-Some Images
+<H2>Some Images</H2>
 
 ![1](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222238.png)
+![2](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222338.png)
+![3](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222252.png)
+![4](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222308.png)
+
 
 
 
