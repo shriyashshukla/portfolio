@@ -28,14 +28,14 @@ const projectsData = [
     title: "AnimeZen",
     description: "AnimeZen is your ultimate destination for all things anime-inspired fashion. Dive into a world where your favorite anime characters come to life through stylish clothing and accessories. Whether you're a die-hard fan or just starting your journey into the anime universe, AnimeZen offers a diverse range of apparel that captures the essence of your favorite shows and characters.",
     image: "/images/projects/3.png",
-    tag: ["All", "Live"],
+    tag: ["All", "Working On","Live"],
     gitUrl: "https://github.com/shriyashshukla/AnimeZen.git",
     previewUrl: "https://anime-zen.vercel.app/",
   },
   {
     id: 4,
     title: "Food Ordering Application",
-    description: "Browse through our carefully curated selection of cuisines, from traditional favorites to innovative fusion dishes, all available for delivery or pickup. Whether you're in the mood for hearty comfort food, exotic international fare, or healthy options to nourish your body and soul, Paapi Paet has you covered.",
+    description: "Browse through our carefully curated selection of cuisines, from traditional favorites to innovative fusion dishes, all available for deWorking Onry or pickup. Whether you're in the mood for hearty comfort food, exotic international fare, or healthy options to nourish your body and soul, Paapi Paet has you covered.",
     image: "/images/projects/4.png",
     tag: ["All", "Live"],
     gitUrl: "https://github.com/shriyashshukla/food_deliverey.git",
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Trip-book.com",
     description: "Trip-Book.com is a travel booking platform that offers a wide range of travel services, including flights, hotels, car rentals, and vacation packages. With its user-friendly interface and advanced search features, Trip-Book.com makes it easy to plan your next adventure and book all your travel needs in one place.",
     image: "/images/projects/5.png",
-    tag: ["All", "Live"],
+    tag: ["All","Live"],
     gitUrl: "https://github.com/shriyashshukla/tripBook.com.git",
     previewUrl: "https://trip-book-com.vercel.app/",
   },
@@ -82,6 +82,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Working On"
+          isSelected={tag === "Working On"}
         />
         <ProjectTag
           onClick={handleTagChange}
