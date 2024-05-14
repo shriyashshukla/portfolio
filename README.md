@@ -1,3 +1,52 @@
+
+# Shriyash Shukla Portfolio
+
+This is the GitHub repository for the portfolio of Shriyash Shukla.
+
+## Description
+
+This portfolio showcases the work, projects, and skills of Shriyash Shukla. It serves as a central hub for prospective employers, collaborators, or anyone interested in Shriyash's work to explore his projects, experience, and expertise.
+
+## Features
+
+- **Project Showcase**: Displays a curated selection of projects undertaken by Shriyash Shukla, highlighting his skills and accomplishments.
+- **About Section**: Provides background information about Shriyash Shukla, including his education, work experience, and professional interests.
+- **Contact Information**: Offers various ways to get in touch with Shriyash Shukla, such as email, LinkedIn profile, or other relevant contact details.
+- **Responsive Design**: Ensures a seamless browsing experience across different devices and screen sizes.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap (optional)
+- Other relevant libraries or frameworks
+
+
+## Contributions
+
+Contributions to improve the portfolio are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
+
+
+## Acknowledgements
+
+- Inspiration for this portfolio may have been drawn from various online resources, tutorials, or templates.
+- Special thanks to anyone who provided feedback, guidance, or support during the development of this portfolio.
+
+## Contact
+
+For inquiries or further information, please contact Shriyash Shukla at [harishukla797@gmail.com]
+
+<H2>Some Images</H2>
+
+![1](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222238.png)
+![2](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222338.png)
+![3](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222252.png)
+![4](https://github.com/shriyashshukla/portfolio/blob/master/SS/Screenshot%202024-05-13%20222308.png)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
