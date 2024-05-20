@@ -19,8 +19,9 @@ This portfolio showcases the work, projects, and skills of Shriyash Shukla. It s
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (optional)
-- Other relevant libraries or frameworks
+- Bootstrap 
+- Tailwind Css
+- Next JS
 
 
 ## Contributions
