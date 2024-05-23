@@ -106,7 +106,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <a href="https://drive.google.com/file/d/1NyH7i_dAHEvz4MUJvbOkx4GpTIEoktBo/view?usp=sharing"><button className="cvbutton mx-auto"> Download My Curriculum Vitae</button></a>
+      <a href="https://drive.google.com/file/d/1oanVugeUR-F0CWoVCsQzBlC7MZfMGwYf/view?usp=sharing"><button className="cvbutton mx-auto"> Download My Curriculum Vitae</button></a>
       
     </section>
   );
