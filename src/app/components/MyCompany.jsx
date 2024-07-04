@@ -57,7 +57,7 @@ const MyCompany = () => {
               </h1>
             </a>
             <p className="text-base lg:text-lg">
-              Our company is an innovative clothing brand dedicated to redefining
+              Luxabord is an innovative clothing brand dedicated to redefining
               luxury fashion with a modern twist. We focus on providing
               high-quality, stylish, and comfortable clothing options that cater
               to the discerning tastes of our clientele. Our mission is to blend
@@ -65,7 +65,7 @@ const MyCompany = () => {
               look and feel their best.
             </p>
             <p className="text-base lg:text-lg mt-4">
-              As a key member of our company's management team, I am responsible
+              As a key member of Luxabord's management team, I am responsible
               for the design and management of our company’s website. My primary
               focus is to ensure a seamless and engaging online shopping
               experience for our customers. This includes integrating
@@ -111,14 +111,14 @@ const MyCompany = () => {
                   <h6 className="text-2xl text-white mb-2">Contact</h6>
                   <p className="text-base lg:text-lg">
                     For inquiries, please contact me at:{" "}
-                    <a href="https://ourcompany.com/" className="text-blue-400">
-                      ourcompany.com
+                    <a href="https://luxabord.com/" className="text-blue-400">
+                      luxabord.com
                     </a>
                   </p>
                   <p className="text-base lg:text-lg">
                     Follow Luxabord on social media:{" "}
                     <a
-                      href="https://www.instagram.com/ourcompany/"
+                      href="https://www.instagram.com/luxabord/"
                       className="text-blue-400"
                     >
                       Instagram
