@@ -5,17 +5,9 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+  
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Welcome to Shubham's Professional Portfolio, a showcase of accomplishments and expertise beyond IT. This portfolio demonstrates Shubham's versatility and proficiency in  Pharma industries.",
-    image: "/images/projects/1.png",
-    tag: ["All", "Live"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
     title: "E-Doctor Connect",
     description: "E-Doctor Connect is a comprehensive healthcare platform designed to bridge the gap between patients and healthcare providers through innovative digital solutions. With its user-friendly interface and advanced features, eDoctor Connect enables seamless communication, appointment scheduling, and remote consultations between patients and healthcare professionals.",
     image: "/images/projects/2.png",
@@ -24,7 +16,7 @@ const projectsData = [
     previewUrl: "",
   },
   {
-    id: 3,
+    id: 2,
     title: "AnimeZen",
     description: "AnimeZen is your ultimate destination for all things anime-inspired fashion. Dive into a world where your favorite anime characters come to life through stylish clothing and accessories. Whether you're a die-hard fan or just starting your journey into the anime universe, AnimeZen offers a diverse range of apparel that captures the essence of your favorite shows and characters.",
     image: "/images/projects/3.png",
@@ -33,7 +25,7 @@ const projectsData = [
     previewUrl: "https://anime-zen.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Food Ordering Application",
     description: "Browse through our carefully curated selection of cuisines, from traditional favorites to innovative fusion dishes, all available for deWorking Onry or pickup. Whether you're in the mood for hearty comfort food, exotic international fare, or healthy options to nourish your body and soul, Paapi Paet has you covered.",
     image: "/images/projects/4.png",
@@ -42,7 +34,7 @@ const projectsData = [
     previewUrl: "https://food-deliverey.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Trip-book.com",
     description: "Trip-Book.com is a travel booking platform that offers a wide range of travel services, including flights, hotels, car rentals, and vacation packages. With its user-friendly interface and advanced search features, Trip-Book.com makes it easy to plan your next adventure and book all your travel needs in one place.",
     image: "/images/projects/5.png",
