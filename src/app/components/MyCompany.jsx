@@ -65,7 +65,7 @@ const MyCompany = () => {
               look and feel their best.
             </p>
             <p className="text-base lg:text-lg mt-4">
-              As a key member of Luxabord's management team, I am responsible
+              As a key member of Luxabord&apos;s management team, I am responsible
               for the design and management of our company’s website. My primary
               focus is to ensure a seamless and engaging online shopping
               experience for our customers. This includes integrating
@@ -96,7 +96,7 @@ const MyCompany = () => {
                 <div>
                   <h6 className="text-2xl text-white mb-2">My Role</h6>
                   <p className="text-base lg:text-lg">
-                    I managed and designed Luxabord’s e-commerce platform using
+                    I managed and designed Luxabord&apos;s e-commerce platform using
                     modern technologies like WordPress. I focused on creating an
                     intuitive user interface and ensuring a seamless user
                     experience. Additionally, I integrated anime-inspired
