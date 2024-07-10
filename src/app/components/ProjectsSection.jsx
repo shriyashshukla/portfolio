@@ -46,7 +46,7 @@ const projectsData = [
     id: 5,
     title: "Code Pen",
     description: "this is code text editor on web dev",
-    image: "/images/projects/6.png",
+    image: "/images/projects/7.png",
     tag: ["All","Live"],
     gitUrl: "https://github.com/shriyashshukla/Code-pen",
     previewUrl: "code-pen-eosin.vercel.app",
