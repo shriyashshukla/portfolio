@@ -42,6 +42,15 @@ const projectsData = [
     gitUrl: "https://github.com/shriyashshukla/tripBook.com.git",
     previewUrl: "https://trip-book-com.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Code Pen",
+    description: "this is code text editor on web dev",
+    image: "/images/projects/6.png",
+    tag: ["All","Live"],
+    gitUrl: "https://github.com/shriyashshukla/Code-pen",
+    previewUrl: "code-pen-eosin.vercel.app",
+  },
   
 ];
 
